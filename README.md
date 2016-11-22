@@ -7,24 +7,24 @@ favorites that is stored in cookies.
 ## Basic usage
 
 ```
-$('#fav').favoriteWidget({id: 'http://www.example.com/articleX'});
+$('.fav').favoriteWidget({id: 'http://www.example.com/articleX'});
 ```
 
-Given we have ``<div id="fav"></div>`` and given content isn't in favorites,
+Given we have ``<div class="fav"></div>`` and given content isn't in favorites,
 following initialization would become:
 ```
-<div id="fav" class="favoritewidget favoritewidget--addfav"><span><a href="#">Add to favorites</a></span></div>
+<div class="fav favoritewidget favoritewidget--addfav"><span><a href="#">Add to favorites</a></span></div>
 ```
 
 When clicking "Add to favorites" the element class would change to
 "favoritewidget--delfav":
 ```
-<div id="fav" class="favoritewidget favoritewidget--delfav"><span><a href="#">Remove favorites</a></span></div>
+<div class="fav favoritewidget favoritewidget--delfav"><span><a href="#">Remove favorites</a></span></div>
 ```
 
 ## Options
 ```
-$('#fav').favoriteWidget({
+$('.fav').favoriteWidget({
   id: 'http://www.example.com/articleX',
   cookieName: 'favoritewidget',
   addToFavLabel: 'Add to favorites',
