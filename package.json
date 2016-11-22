@@ -1,0 +1,18 @@
+{
+  "name": "jquery.favoritewidget",
+  "title": "jQuery Favorite Widget",
+  "description": "Provides an widget for adding or removing selected content from favorites that is stored in cookies.",
+  "version": "1.x.x-dev",
+  "author": {
+    "name": "Mikael Kundert",
+    "url": "https://github.com/mikaelkundert",
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "cookies",
+    "bookmark",
+    "favorite"
+  ],
+  "license": "(MIT AND GPL-3.0)"
+}
