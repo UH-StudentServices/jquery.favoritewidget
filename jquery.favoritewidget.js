@@ -165,7 +165,7 @@
         this._addToFavorites(this.options.id);
       }
       else if (value == false && this._isFavorite(this.options.id)) {
-        // Was added to favorites, remove from cookies
+        // Was removed from favorites, remove from cookies
         this._removeFromFavorites(this.options.id);
       }
       this._stateFavorite = value;
