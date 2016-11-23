@@ -13,13 +13,13 @@ $('.fav').favoriteWidget({id: 'http://www.example.com/articleX'});
 Given we have ``<div class="fav"></div>`` and given content isn't in favorites,
 following initialization would become:
 ```
-<div class="fav favoritewidget favoritewidget--addfav"><span><a href="#">Add to favorites</a></span></div>
+<div class="fav favoritewidget favoritewidget--addfav"><button>Add to favorites</button></div>
 ```
 
 When clicking "Add to favorites" the element class would change to
 "favoritewidget--delfav":
 ```
-<div class="fav favoritewidget favoritewidget--delfav"><span><a href="#">Remove favorites</a></span></div>
+<div class="fav favoritewidget favoritewidget--delfav"><button>Remove favorites</button></div>
 ```
 
 ## Options
@@ -31,7 +31,9 @@ $('.fav').favoriteWidget({
   delFromFavLabel: 'Remove from favorites',
   wrapperClassName: 'favoritewidget',
   addClassName: 'favoritewidget--addfav',
-  delClassName: 'favoritewidget--delfav'
+  delClassName: 'favoritewidget--delfav',
+  inlineElement: 'button',
+  inlineElementClassName: true
 });
 ```
 

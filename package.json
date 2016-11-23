@@ -14,5 +14,10 @@
     "bookmark",
     "favorite"
   ],
-  "license": "(MIT AND GPL-3.0)"
+  "license": "(MIT AND GPL-3.0)",
+  "dependencies": {
+    "jquery": ">=1.4",
+    "jquery-ui": ">=1.8",
+    "jquery.cookie": "1.0"
+  }
 }
