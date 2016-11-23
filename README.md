@@ -27,6 +27,10 @@ When clicking "Add to favorites" the element class would change to
 $('.fav').favoriteWidget({
   id: 'http://www.example.com/articleX',
   cookieName: 'favoritewidget',
+  cookieOptions: {
+    expires: 365,
+    path: '/'
+  },
   addToFavLabel: 'Add to favorites',
   delFromFavLabel: 'Remove from favorites',
   wrapperClassName: 'favoritewidget',

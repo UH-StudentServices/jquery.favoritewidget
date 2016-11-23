@@ -13,6 +13,10 @@
     options: {
       id: 0,
       cookieName: 'favoritewidget',
+      cookieOptions: {
+        expires: 365,
+        path: '/'
+      },
       addToFavLabel: 'Add to favorites',
       delFromFavLabel: 'Added to favorites',
       wrapperClassName: 'favoritewidget',
@@ -68,7 +72,7 @@
       this._removeFromFavorites(id);
       var values = this._getFavorites();
       values.push(id);
-      $.cookie(this.options.cookieName, values.join(this.options.delimiter));
+      $.cookie(this.options.cookieName, values.join(this.options.delimiter), this.options.cookieOptions);
     },
 
     /*
@@ -95,7 +99,7 @@
           newFavorites.push(previousFavorites[i]);
         }
       }
-      $.cookie(this.options.cookieName, newFavorites.join(this.options.delimiter));
+      $.cookie(this.options.cookieName, newFavorites.join(this.options.delimiter), this.options.cookieOptions);
     },
 
     /*
