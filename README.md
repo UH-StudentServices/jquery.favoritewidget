@@ -26,7 +26,7 @@ When clicking "Add to favorites" the element class would change to
 <div class="fav favoritewidget favoritewidget--delfav"><button>Remove favorites</button></div>
 ```
 
-The state will remain accross the requests because the state is stored in cookies.
+The state will remain across the requests because the state is stored in cookies.
 
 ## Options
 ```
