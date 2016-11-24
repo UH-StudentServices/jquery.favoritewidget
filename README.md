@@ -15,7 +15,7 @@ $('.fav').favoriteWidget({id: 'http://www.example.com/articleX'});
 ```
 
 Given we have ``<div class="fav"></div>`` and given content isn't in favorites,
-following initialization would become:
+the element becomes in plugin initialization as follow:
 ```
 <div class="fav favoritewidget favoritewidget--addfav"><button>Add to favorites</button></div>
 ```
