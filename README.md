@@ -4,6 +4,8 @@ favorites that is stored in cookies.
 
 # Usage
 
+![Screenshot](demo.png)
+
 ## Basic usage
 
 ```

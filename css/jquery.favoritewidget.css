@@ -1,0 +1,11 @@
+.favoritewidget {
+  background-image: url(../images/favorite-sprite.svg);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+.favoritewidget.favoritewidget--addfav {
+  background-position: 0px 6px
+}
+.favoritewidget.favoritewidget--delfav {
+  background-position: 0px -61px;
+}

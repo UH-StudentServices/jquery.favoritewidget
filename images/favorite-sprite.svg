@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Original source: https://commons.wikimedia.org/wiki/File:Breezeicons-emblems-22-emblem-favorite.svg -->
+<!-- Licensed under GPL v3 -->
+<svg width="22" height="87" xmlns="http://www.w3.org/2000/svg">
+ <defs id="rect4161">
+   <style type="text/css" id="current-color-scheme">
+    .ColorScheme-Text-Neutral {color:#9d9d9d;}
+    .ColorScheme-Text-Active {color:#fa941e;}
+  </style>
+ </defs>
+  <path
+      style="fill:currentColor;fill-opacity:1;stroke:none"
+      d="m11,3l-2.47656,5.26564l-5.52344,0.843719l4,4.101561l-0.94532,5.78908l4.94532,-2.73436l4.94532,2.73436l-0.94532,-5.78908l4,-4.101561l-5.52344,-0.843719l-2.47656,-5.26564z"
+      id="rect4161"
+      class="ColorScheme-Text-Neutral"/>
+  <path
+      style="fill:currentColor;fill-opacity:1;stroke:none"
+      d="m10.875,69.374184l-2.47656,5.26561l-5.52344,0.843803l4,4.101501l-0.94532,5.789101l4.94532,-2.734406l4.9453,2.734406l-0.9453,-5.789101l4,-4.101501l-5.5234,-0.843803l-2.4766,-5.26561z"
+      id="rect4161"
+      class="ColorScheme-Text-Active"/>
+</svg>
+<!-- Licensed under GPL v3 -->

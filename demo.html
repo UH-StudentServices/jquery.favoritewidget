@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>jQuery Favorites Widget Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.favoritewidget.css" media="all"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="js/jquery.favoritewidget.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="starter-template">
+            <h1>jQuery Favorites Widget Demo</h1>
+            <p class="lead">An stateful widget for adding or removing selected content from favorites that is stored in cookies.</p>
+            <h3>Interactive (when hosted in domain) widget</h3>
+            <div class="fav"></div>
+
+            <h3>Element when missing from favorites</h3>
+            <div class="favoritewidget favoritewidget--addfav"><button class="btn btn-default">Add to favorites</button></div>
+
+            <h3>Element when added to favorites</h3>
+            <div class="favoritewidget favoritewidget--delfav"><button class="btn btn-default">Remove from favorites</button></div>
+        </div>
+    </div>
+    <script>(function($) { $('.fav').favoriteWidget({id: 'demoX', inlineElementClassName: 'btn btn-default'}) })(jQuery);</script>
+</body>
+</html>
