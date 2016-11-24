@@ -1,10 +1,12 @@
 # jQuery Favorite Widget
 Provides an stateful widget for adding or removing selected content from
-favorites that is stored in cookies.
+favorites that are stored in cookies.
 
-# Usage
+# Screenshot
 
 ![Screenshot](demo.png)
+
+# Usage
 
 ## Basic usage
 
