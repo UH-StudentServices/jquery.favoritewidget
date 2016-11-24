@@ -18,7 +18,7 @@
         path: '/'
       },
       addToFavLabel: 'Add to favorites',
-      delFromFavLabel: 'Added to favorites',
+      delFromFavLabel: 'Remove from favorites',
       wrapperClassName: 'favoritewidget',
       addClassName: 'favoritewidget--addfav',
       delClassName: 'favoritewidget--delfav',
