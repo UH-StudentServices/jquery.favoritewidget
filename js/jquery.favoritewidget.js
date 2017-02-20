@@ -163,10 +163,12 @@
       if (value == true && !this._isFavorite(this.options.id)) {
         // Was added to favorites, add to cookies
         this._addToFavorites(this.options.id);
+        this._trigger('addedCallback', null, {id: this.options.id});
       }
       else if (value == false && this._isFavorite(this.options.id)) {
         // Was removed from favorites, remove from cookies
         this._removeFromFavorites(this.options.id);
+        this._trigger('removedCallback', null, {id: this.options.id});
       }
       this._stateFavorite = value;
       this._update();

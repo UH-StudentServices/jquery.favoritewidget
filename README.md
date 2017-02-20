@@ -26,6 +26,19 @@ When clicking "Add to favorites" the element class would change to
 <div class="fav favoritewidget favoritewidget--delfav"><button>Remove favorites</button></div>
 ```
 
+If you want to bind event listeners when adding or removing:
+```
+$('.fav-event').favoriteWidget({
+  id: 'demoY', inlineElementClassName: 'btn btn-default',
+  addedCallback: function(event, data) {
+    alert('Added ' + data.id);
+  },
+  removedCallback: function(event, data) {
+    alert('Removed ' + data.id);
+  }
+});
+```
+
 The state will remain across the requests because the state is stored in cookies.
 
 ## Options

@@ -23,8 +23,14 @@
 
             <h3>Element when added to favorites</h3>
             <div class="favoritewidget favoritewidget--delfav"><button class="btn btn-default">Remove from favorites</button></div>
+
+            <h3>Element with event triggering</h3>
+            <div class="fav-event"></div>
         </div>
     </div>
     <script>(function($) { $('.fav').favoriteWidget({id: 'demoX', inlineElementClassName: 'btn btn-default'}) })(jQuery);</script>
+    <script>(function($) {
+      $('.fav-event').favoriteWidget({id: 'demoY', inlineElementClassName: 'btn btn-default', addedCallback: function(event, arg1) { alert('Added ' + arg1.id); }, removedCallback: function(event, arg1) { alert('Removed ' + arg1.id); }});
+    })(jQuery);</script>
 </body>
 </html>
